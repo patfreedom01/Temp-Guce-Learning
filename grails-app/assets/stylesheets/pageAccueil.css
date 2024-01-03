@@ -1,0 +1,129 @@
+body{
+	font-family:"Helvetica";
+
+}
+
+body .laPage{
+	width : auto;
+	height : auto;
+	margin : 5px;
+
+    /*border : solid 1px;*/
+}
+
+.laPage{
+}
+.laPage .entete{
+    position: relative;
+    overflow: hidden;
+	text-align : center;
+    left: -85px;
+    /*max-width: 100%;*/
+}
+
+.entete{
+    margin : 15px;
+
+}
+
+.entete .texte1{
+    font-size: 2.5vh;
+    /*font-size: 25px;*/
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+	color : #ff6900;
+}
+.entete .texte2{    
+    font-size: 3vh;
+    /*font-size: 30px;*/
+	letter-spacing: 4px;
+	color: #009D4F;
+
+}
+
+.corps{
+/* 	border : solid 1px;
+ */	display : flex;
+}
+.corps .texte * {	
+	display : block;
+	margin : 15px;
+	padding : 5px;
+	
+}
+.corps .texte h2{    
+	font-size: 25px;
+    font-weight: 700;
+	color : #049f82;
+}
+.corps .texte h3{    
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 2px;
+
+}
+.corps .texte h4{    
+    font-size: 20px;
+    /*text-align: justify;*/
+    font-weight: normal;
+}
+
+.corps .texte {
+	margin : 5px;
+	/*
+	border : solid 1px;
+	*/
+}
+.corps .slide {
+	margin : 10px;
+	/*
+	border : solid 1px;
+	*/
+}
+
+.laPage .textAuPied {
+    margin : 15px;
+	/*
+	border : solid 1px;
+	*/
+}
+.textAuPied .texte {
+    margin : 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.textAuPied .texte h3{
+	color : #049f82;
+    font-size: 20px;
+    font-weight: 500;
+}
+.textAuPied .texte h2{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.voir{
+    border-top-color: #049f82;
+    border-top-style: solid;
+    border-right-color: #049f82;
+    border-right-style: solid;
+    border-bottom-color: #049f82;
+    border-bottom-style: solid;
+    border-left-color: #049f82;
+    border-left-style: solid;
+	/*width : 300px;*/
+}
+
+.custom-icon {
+	color: #3498db; /* Change the color as needed */
+	font-size: 24px; /* Change the font size as needed */
+}
+
+/******/

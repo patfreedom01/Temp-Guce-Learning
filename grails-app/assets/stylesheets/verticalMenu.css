@@ -1,0 +1,80 @@
+#zone-titre{
+    padding: 15px;
+    background-color: white;
+}
+ 
+ 
+ button .menu-button{
+ }
+.menu-item {
+	position : relative;
+    left : 0;
+	top : -30px;
+    width: 250px;
+    height: 250px;
+    text-align: left;
+    padding: 10px;
+    margin:  5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: block;
+}
+
+.menu-login {
+	position : relative;
+	top : -300px;
+	right : -1200px;
+    text-align: right;
+    padding: 10px;
+    margin:  20px;
+    cursor: pointer;
+}
+
+
+
+.menu-button {
+    width: 230px;
+    border-radius: 3px 3px 0 0;
+    border-color : #ccc;
+    font-size: 1.4em;
+}
+
+.menu-button:hover {
+    background-color: #ff8000 ;
+}
+
+span{
+    color: #009D4F ;
+
+}
+.sub-menu {
+	
+    background-color: #e0e0e0;
+   /* display: none; */
+    text-shadow: 0 -1px 1px #808080 ;
+}
+
+.sub-menu ul {
+    list-style: none !important;
+    padding: 0;
+}
+
+.sub-menu ul li {
+    padding: 5px 20px;
+}
+
+/*
+.menu-item:hover .sub-menu {
+    display: block;
+    background-color: #e0e0e0;
+}
+*/
+.menu-item:active .sub-menu {
+    display: block;
+    background-color: #e0e0e0;
+}
+
+li {
+    list-style-type: none;
+}

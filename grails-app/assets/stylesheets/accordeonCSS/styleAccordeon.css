@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}*/
+.parent-tab .content .inscrire{
+    text-align : right;
+    font-size: 1.1em;
+    color : red;
+}.parent-tab .content{
+    font-size: 1.2em;
+}
+
+.leWrapper{
+
+    width: auto;
+    height: auto;
+    padding: 0 20px;
+}
+
+.leWrapper .parent-tab,
+.leWrapper .child-tab{
+    margin-bottom: 8px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+
+}
+.leWrapper .parent-tab label,
+.leWrapper .child-tab label{
+    background: #D3D3D3 ;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    z-index: 99;
+    transition: all 0.3s ease;
+}
+.parent-tab input:checked ~ label span,
+.child-tab input:checked ~ label span{
+    border-radius: 3px 3px 0 0;
+    color : #ff8000;
+ }
+.leWrapper label span{
+    color: #009D4F;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-shadow: 0 -1px 1px #808080 ;
+}
+.leWrapper .child-tab label span{
+    font-size: 1.3em;
+}
+.parent-tab label .icon{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    color: #009D4F ;
+    display: block;
+    background: #D3D3D3 ;
+    border-radius: 50%;
+    text-shadow: 0 -1px 1px #808080 ;
+}
+
+.parent-tab label:hover .icon,
+.parent-tab label:hover span{
+    color: #ff8000 ;
+}
+.parent-tab label:checkbox .icon{
+    color: #ff8000 ;
+}
+.leWrapper .child-tab label .icon{
+    height: 27px;
+    width: 27px;
+}
+
+.parent-tab label .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parent-tab input:checked ~ label .icon i:before,
+.child-tab input:checked ~ label .icon i:before{
+    content: '\f068';
+    color: #ff8000 ;
+}
+.leWrapper .parent-tab .content,
+.leWrapper .child-tab .sub-content{
+    max-height: 0px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border-radius: 0 0 3px 3px;
+    transition: all 0.4s ease;
+}
+
+.leWrapper .child-tab .sub-content{
+    font-size: 1.2em;
+}
+.parent-tab input:checked ~ .content,
+.child-tab input:checked ~ .sub-content{
+    max-height: 100vh;
+}
+
+.tab-3 input:checked ~ .content{
+    padding: 15px 20px;
+}
+.parent-tab .content p,
+.child-tab .sub-content p{
+    padding: 15px 20px;
+    font-size: 1.2em;
+}
+.child-tab .sub-content p{
+    font-size: 1.2em;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    display: none;
+}

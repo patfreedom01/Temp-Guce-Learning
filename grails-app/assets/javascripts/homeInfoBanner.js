@@ -1,0 +1,2 @@
+//# sourceMappingURL=homeInfoBanner.js.map
+$(document).ready(function(){initHomeInfoBanner()});function initHomeInfoBanner(){var a=$(".home-banner-component"),b=$(".home-banner-component-background");$(".ti-close.banner-close-button").on("click",function(){a.fadeOut();b.fadeOut()})};
